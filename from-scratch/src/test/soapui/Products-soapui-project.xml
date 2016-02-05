@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="a2f8c2b7-15af-4cfa-9920-3ff1fd6f5ce7" activeEnvironment="Default" name="Products Springboot" resourceRoot="" soapui-version="5.2.1" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:testSuite id="e294a343-6778-412a-898f-8387c2b65971" name="TestSuite 1"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="90674b13-717d-45b0-8d84-86e7ff2cac89" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 1" searchProperties="true"><con:settings/><con:testStep type="httprequest" name="POST New Product" id="a1de5651-a370-47e2-a9b4-50e5ad386ecf"><con:settings/><con:config method="POST" xsi:type="con:HttpRequest" id="6865b54b-b1d4-42f4-974b-4be7301dfb70" name="POST New Product" postQueryString="false" mediaType="application/json" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8080/products</con:endpoint><con:request>{
+	"productId":"THOMAS1345",
+	"productName":"Dan's Book of Writing",
+	"shortDescription":"A book about writing books.",
+	"longDescription":"In this book about writing books, Dan will show you how to write a book.",
+	"inventoryId":"009178461"
+}</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
